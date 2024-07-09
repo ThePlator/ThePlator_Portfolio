@@ -17,7 +17,7 @@ function Skills() {
     <div className="relative overflow-hidden flex items-center justify-center my-5">
       <div>
         <h1 className=" py-10 text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-          My <span className="text-purple-500">Skill's</span>
+          My <span className="text-purple-500">Skill&apos;s</span>
         </h1>
         <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
           {items.map((item, i) => (
