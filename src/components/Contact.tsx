@@ -53,8 +53,8 @@ function Contact() {
         Welcome to my website
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-        Don't hesitate to ask me anything; I'm here to help with whatever you
-        need.
+        Don&apos;t hesitate to ask me anything; I&apos;m here to help with
+        whatever you need.
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
