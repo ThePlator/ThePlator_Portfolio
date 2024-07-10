@@ -19,7 +19,9 @@ const Responses = () => {
   useEffect(() => {
     const fetchResponses = async () => {
       try {
-        const res = await fetch('/api/get-message');
+        const res = await fetch('/api/get-message', {
+          method: 'GET',
+        });
         const data = await res.json();
 
         if (res.ok) {
